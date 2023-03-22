@@ -4,6 +4,11 @@
     <view class="text-area">
       <text class="title">{{ title }}</text>
     </view>
+    <view>
+      <navigator url="/pages/todo/todo" hover-class="navigator-hover">
+        <button type="default">跳转到 todo</button>
+      </navigator>
+    </view>
   </view>
 </template>
 
@@ -11,12 +16,12 @@
 export default {
   data() {
     return {
-      title: 'Hello',
-    }
+      title: "Hello",
+    };
   },
   onLoad() {},
   methods: {},
-}
+};
 </script>
 
 <style>
